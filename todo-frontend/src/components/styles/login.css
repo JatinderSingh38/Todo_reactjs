@@ -1,0 +1,149 @@
+.main-todo {
+    background-color: #333;
+    height: fit-content;
+    max-height: 80vh;
+    padding-bottom: 50px;
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.clear {
+    /* color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding-top: 30px; */
+    /* background-color: #ff7474; */
+    padding: 30px;
+
+}
+
+.heading {
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding-top: 30px;
+}
+
+
+.add-todo {
+    display: flex;
+    background-color: #777;
+    height: 80px;
+    border-radius: 5px;
+    margin: 30px auto;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.add-todo-btn {
+    height: 30px;
+    width: 120px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: #ffa700;
+    border: 1px solid #ffa700;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.by-name {
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.description {
+    margin-right: 40px;
+    margin-top: 10px;
+    text-align: left;
+    color: white;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.inp-todo {
+    height: 25px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 10px;
+    padding: 3px 8px;
+}
+
+.task {
+    height: 80px;
+    width: 60%;
+    background-color: #777;
+    margin: 5px auto;
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.task1 {
+    margin-top: 2px;
+    margin-left: 20px;
+}
+
+.name-of-task {
+    font-size: xx-large;
+    color: #ffa700;
+    text-align: left;
+
+}
+
+.name-of-task-complete {
+    font-size: xx-large;
+    color: #ffffff;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.what-to-do {
+
+    color: white;
+    text-align: left;
+
+}
+
+.buttons {
+    width: 40%;
+    justify-content: space-between;
+}
+
+.complete {
+    height: 35px;
+    width: 50%;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: #9FFFCB;
+    border: 1px solid green;
+    color: green;
+}
+
+.completed {
+    height: 35px;
+    width: 50%;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    background-color: transparent;
+    border: 1px solid rgb(92, 239, 92);
+    color: rgb(105, 231, 105);
+}
+
+.delete {
+    height: 35px;
+    width: 35%;
+    border-radius: 20px;
+    background-color: #ffabab;
+    border: 1px solid #ff7474;
+    color: red;
+}
